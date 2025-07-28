@@ -1,3 +1,8 @@
+npx shadcn@canary add https://matsu-theme.vercel.app/r/matsu-theme.json
+npx shadcn@canary add https://matsu-theme.vercel.app/r/matsu-theme-components.json
+配置Layout
+这个 Layout 主要是获得有质感的背景。
+
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { PT_Sans } from "next/font/google";
@@ -35,3 +40,5 @@ export default function RootLayout({
     </html>
   );
 }
+
+请你仔细阅读 任务.txt 路径 C:\Users\lihai\mentalist-ai 看看能不能实现
