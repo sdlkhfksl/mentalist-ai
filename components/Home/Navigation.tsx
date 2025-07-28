@@ -1,6 +1,6 @@
 import * as React from 'react';
 import Link from 'next/link';
-import IconComponent from '../ui/Icon';
+import IconComponent from '@/components/ui/Icon';
 
 interface MainNavProps {
 	children?: React.ReactNode;

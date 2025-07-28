@@ -1,0 +1,73 @@
+[01:59:52.066] Running build in Washington, D.C., USA (East) – iad1
+[01:59:52.066] Build machine configuration: 2 cores, 8 GB
+[01:59:52.082] Cloning github.com/sdlkhfksl/mentalist-ai (Branch: main, Commit: 770c3b6)
+[01:59:52.407] Cloning completed: 325.000ms
+[01:59:53.893] Restored build cache from previous deployment (7uRcuSTd36QWUA7YK8uv3krFLVPp)
+[01:59:55.870] Running "vercel build"
+[01:59:56.333] Vercel CLI 44.5.0
+[01:59:56.647] Installing dependencies...
+[01:59:57.044] yarn install v1.22.19
+[01:59:57.117] [1/4] Resolving packages...
+[01:59:57.365] success Already up-to-date.
+[01:59:57.373] Done in 0.33s.
+[01:59:57.383] Detected Next.js version: 13.1.6
+[01:59:57.386] Running "yarn run build"
+[01:59:57.548] yarn run v1.22.19
+[01:59:57.573] $ next build
+[01:59:57.972] warn  - You have enabled experimental feature (appDir) in next.config.js.
+[01:59:57.973] warn  - Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+[01:59:57.973] info  - Thank you for testing `appDir` please leave your feedback at https://nextjs.link/app-feedback
+[01:59:57.973] 
+[01:59:58.090] info  - Creating an optimized production build...
+[01:59:58.744] Browserslist: caniuse-lite is outdated. Please run:
+[01:59:58.744]   npx browserslist@latest --update-db
+[01:59:58.744]   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+[02:00:05.750] Failed to compile.
+[02:00:05.750] 
+[02:00:05.751] ./components/Home/Features.tsx
+[02:00:05.751] Module not found: Can't resolve '../ui/Icon'
+[02:00:05.751] 
+[02:00:05.751] Import trace for requested module:
+[02:00:05.751] ./app/page.tsx
+[02:00:05.751] 
+[02:00:05.751] https://nextjs.org/docs/messages/module-not-found
+[02:00:05.751] 
+[02:00:05.751] ./components/Home/Footer.tsx
+[02:00:05.751] Module not found: Can't resolve '../ui/Icon'
+[02:00:05.751] 
+[02:00:05.751] Import trace for requested module:
+[02:00:05.751] ./app/page.tsx
+[02:00:05.752] 
+[02:00:05.752] https://nextjs.org/docs/messages/module-not-found
+[02:00:05.752] 
+[02:00:05.752] ./components/Home/Main.tsx
+[02:00:05.752] Module not found: Can't resolve '@/components/ui/AspectRadio'
+[02:00:05.752] 
+[02:00:05.752] Import trace for requested module:
+[02:00:05.752] ./app/page.tsx
+[02:00:05.752] 
+[02:00:05.752] https://nextjs.org/docs/messages/module-not-found
+[02:00:05.753] 
+[02:00:05.753] ./components/Home/Navigation.tsx
+[02:00:05.753] Module not found: Can't resolve '../ui/Icon'
+[02:00:05.753] 
+[02:00:05.753] Import trace for requested module:
+[02:00:05.753] ./app/page.tsx
+[02:00:05.753] 
+[02:00:05.753] https://nextjs.org/docs/messages/module-not-found
+[02:00:05.753] 
+[02:00:05.753] ./components/Layout/AppLayout/Top.tsx
+[02:00:05.753] Module not found: Can't resolve '@/components/ui/Icon'
+[02:00:05.754] 
+[02:00:05.754] Import trace for requested module:
+[02:00:05.754] ./components/Layout/AppLayout/AppLayout.tsx
+[02:00:05.754] ./app/(app)/layout.tsx
+[02:00:05.754] 
+[02:00:05.754] https://nextjs.org/docs/messages/module-not-found
+[02:00:05.754] 
+[02:00:05.755] 
+[02:00:05.755] > Build failed because of webpack errors
+[02:00:05.783] error Command failed with exit code 1.
+[02:00:05.783] info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+[02:00:05.803] Error: Command "yarn run build" exited with 1
+[02:00:06.018] 

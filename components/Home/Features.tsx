@@ -1,4 +1,4 @@
-import IconComponent from '../ui/Icon';
+import IconComponent from '@/components/ui/Icon';
 import TryItButton from './TryItButton';
 
 const features = [

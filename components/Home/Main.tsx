@@ -1,4 +1,4 @@
-import { AspectRatio } from '@/components/ui/AspectRadio';
+import { AspectRatio } from '@/components/ui/AspectRatio';
 import ActionButtons from './ActionButtons';
 
 export default function Main() {

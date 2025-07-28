@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import IconComponent from '../ui/Icon';
+import IconComponent from '@/components/ui/Icon';
 
 export function Footer() {
 	return (
