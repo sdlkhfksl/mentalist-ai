@@ -1,13 +1,12 @@
-import { icons } from 'lucide-react';
+import * as LucideIcons from 'lucide-react';
+import { LucideProps } from 'lucide-react';
 
-interface IconProps {
-  name: string;
-  className?: string;
-  [key: string]: any;
+interface IconProps extends LucideProps {
+  name: keyof typeof LucideIcons;
 }
 
 const Icon = ({ name, ...props }: IconProps) => {
-  const LucideIcon = icons[name as keyof typeof icons];
+  const LucideIcon = LucideIcons[name];
 
   if (!LucideIcon) {
     return null;
